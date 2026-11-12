@@ -49,6 +49,8 @@ def catalogue(root=ROOT):
                          for word in name.removeprefix('apm-').split('-'))
         if name in ('apm-pipeline-integration', 'apm-ci-enforcement'):
             title = 'APM ' + title
+        if name == 'quarkus-to-guicedee':
+            title = 'Quarkus to Guiced'
         entries.append(dict(name=name, title=title,
                             description=description, marketplaceDescription=plugin['description'], category=plugin.get('category', 'General'),
                             kind=kind, source=source.relative_to(root.resolve()).as_posix(),

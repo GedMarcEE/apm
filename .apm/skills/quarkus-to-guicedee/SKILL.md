@@ -3,7 +3,7 @@ name: quarkus-to-guicedee
 description: Migrate a Quarkus application to GuicedEE, first setting up the GuicedEE APM marketplace and relevant framework skills, then replacing Quarkus facilities with Guice injection, GuicedEE lifecycle and reactive Vert.x integrations.
 ---
 
-# Quarkus to GuicedEE
+# Quarkus to Guiced
 
 Read [provenance and evidence](references/provenance.md). Preserve GuicedEE's Guice-based, reactive architecture; this is not a migration to a traditional CDI application server.
 

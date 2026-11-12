@@ -1,4 +1,4 @@
 interface:
-  display_name: "Quarkus to GuicedEE"
+  display_name: "Quarkus to Guiced"
   short_description: "Set up GuicedEE guidance and migrate from Quarkus"
   default_prompt: "Use $quarkus-to-guicedee to set up the GuicedEE marketplace skills, migrate this Quarkus application, and verify its behaviour."
